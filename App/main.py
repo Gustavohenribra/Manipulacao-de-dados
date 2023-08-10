@@ -7,6 +7,9 @@ from langchain.llms import OpenAI
 from langchain.agents.agent_types import AgentType
 from html_templates import css
 
+#A ser aprimorado para conseguir o resultado desejado
+#Trabalhar com outros modelos de linguagem
+
 def main():
     st.set_page_config(page_title="Agente Pandas")
     st.subheader("Chatbot usando OpenAI e Pandas")
